@@ -1,10 +1,12 @@
 import Hero from "@/components/Hero";
+import Techstack from "@/components/Techstack";
 
 export default function Home() {
   return (
     <>
-      <main className="flex justify-center items-center bg-zinc-900 px-40 py-28">
+      <main className="flex flex-col justify-center bg-zinc-900 px-40 py-28">
         <Hero/>
+        <Techstack/>
       </main>
     </>
   );

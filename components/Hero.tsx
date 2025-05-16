@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="flex justify-between items-center w-full">
 
           <div className="w-1/2">
-            <h1 className="font-bold text-3xl md:text-5xl tracking-wide mb-2 text-black dark:text-white">
+            <h1 className="font-bold text-3xl md:text-5xl tracking-wide mb-2 text-white">
               Sameer Saifi
             </h1>
             <p className="text-zinc-500 uppercase tracking-widest">
@@ -28,13 +28,15 @@ const Hero = () => {
             <Buttongroups/>
             <Githubgraph/>
           </div>
-          <div className="w-1/2 flex justify-end">
+          <div className="w-1/2 flex justify-end items-start">
             <Image
-              width={200}
-              height={200}
-              src="/profile.png"
+              className='rounded-4xl'
+              width={400}
+              height={400}
+              src="/profile.jpg"
               alt="my-photo"
             ></Image>
+
           </div>
 
         </div>
