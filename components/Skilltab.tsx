@@ -6,7 +6,7 @@ export default function Skillstab({imgLink, title }: {
     return (
         <>
             <div className=" bg-zinc-800 p-2 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
-                <div className="aspect-square relative flex items-center justify-center">
+                <div className="aspect-square relative flex items-center justify-center hover:scale-110 transition-all duration-300 ">
                     <div className="w-2/3 h-2/3 flex items-center">
                         <img className="rounded-md" src={imgLink}/>
                     </div>
