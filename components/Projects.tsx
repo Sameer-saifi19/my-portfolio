@@ -5,13 +5,13 @@ export default function Projects() {
     <>
       <div className="mt-16">
         <div>
-          <h2 className="font-bold text-4xl tracking-wide mb-2 text-white">
+          <h2 className="text-2xl font-bold text-zinc-200 mb-6 text-center md:text-left">
             Featured Projects
           </h2>
         </div>
         <div className="grid mt-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <Link
-            href={"https://google.com"}
+            href={"https://github.com/dicedb"}
             className="group p-4 rounded-lg border border-zinc-200 hover:border-white transition-all duration-300 hover:shadow-md"
           >
             <h3 className="text-lg font-semibold text-zinc-300 mb-2 group-hover:text-white transition-colors">
@@ -24,7 +24,7 @@ export default function Projects() {
             </div>
           </Link>
           <Link
-            href={"https://google.com"}
+            href={"https://github.com/Sameer-saifi19"}
             className="group p-4 rounded-lg border border-zinc-200 hover:border-white transition-all duration-300 hover:shadow-md"
           >
             <h3 className="text-lg font-semibold text-zinc-300 mb-2 group-hover:text-white transition-colors">
@@ -38,7 +38,7 @@ export default function Projects() {
             </div>
           </Link>
           <Link
-            href={"https://google.com"}
+            href={"https://github.com/100xDevs-hkirat"}
             className="group p-4 rounded-lg border border-zinc-200 hover:border-white transition-all duration-300 hover:shadow-md"
           >
             <h3 className="text-lg font-semibold text-zinc-300 mb-2 group-hover:text-white transition-colors">

@@ -5,7 +5,7 @@ export default function Techstack(){
     return(
         <>
         <div className="mt-8">
-            <h2 className="font-bold text-4xl tracking-wide mb-2 text-white" >My Skills</h2>
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-zinc-200 md:mb-4 text-center md:text-left" >My Skills</h2>
         </div>
         <div className="mt-6 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-3 sm:gap-4 md:gap-6">
             <Skillstab title="JavaScript" imgLink="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"/>
@@ -21,3 +21,4 @@ export default function Techstack(){
         </>
     )
 }
+
